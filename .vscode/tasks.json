@@ -1,0 +1,26 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Iniciar Proyecto de node",
+			"type": "shell",
+			"problemMatcher": [],
+			// "command": "proyectNode.bat",
+			// "args": [
+			// 	"proyectNode.bat"
+			// ],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"windows": {
+				"command": "${workspaceFolder}\\proyectNode.bat"
+			}
+		}
+	]
+}
